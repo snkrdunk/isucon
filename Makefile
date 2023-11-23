@@ -9,9 +9,3 @@ deploy-nginx:
 
 deploy-webapp:
 	cd ansible && ansible-playbook -i inventory.yaml deploy_webapp.yaml
-
-deploy-pprotein:
-	cd ansible && ansible-playbook -i inventory.yaml deploy_pprotein.yaml
-
-deploy-pprotein-agent:
-	cd ansible && ansible-playbook -i inventory.yaml deploy_pprotein_agent.yaml
